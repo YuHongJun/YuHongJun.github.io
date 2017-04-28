@@ -1,0 +1,99 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
+collections:
+  posts:
+    output:   true
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      ["README.md","node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
+# Plugins
+whitelist: []
+gems:      [jekyll-paginate]
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+show_dir_listing: false
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+quiet:    false
+verbose:  false
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Demi's Journey
+
+liquid:
+  error_mode: warn
+# Markdown Processors
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+
+
+
+name:         Demi's Journey
+description:  Demi的随笔和技术空间
+url:          https://github.com/YuHongJun
+github_url:   https://yuhongjun.github.io
+
+author:
+  name: Demi_YuHongJun
+  avatar : false
+  introduction : engineer
+  email: demiyuhongjun@gmail.com
+  github: YuHongJun
+  twitter: demiyuhongjun
+  instagram:
+  linkedin: 虹君-余-106b94123
+  bio: Demi的随笔和技术空间
+  email_md5: 2baf659d886c56f600e3df8b4b9068f1
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+resume_path: resume.html
+
+BASE_PATH:
