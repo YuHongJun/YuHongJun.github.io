@@ -24,9 +24,16 @@ unpublished: false
 # Plugins
 whitelist: []
 gems:      [jekyll-paginate]
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+
+# plugins: [jekyll-coffeescript, jekyll-watch, jekyll-assets]
+ # This will require each of these plugins automatically.
 # Conversion
 markdown:    kramdown
+#highlighter: pygments
 highlighter: rouge
+
 lsi:         false
 excerpt_separator: "\n\n"
 incremental: false
@@ -69,8 +76,7 @@ kramdown:
   hard_wrap:      false
   footnote_nr:    1
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
+
 
 
 

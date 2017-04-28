@@ -15,7 +15,7 @@ tags:
 
 记录下自己的解决步骤：
 ##### 使用Git log 查看当前commit log
-```
+```git
 commit 7874b5147596e495c4d
 Author: xxx <xxx@xxx.com>
 Date:   Fri Apr 28 11:01:19 2017 +0800
@@ -33,7 +33,7 @@ Date:   Fri Apr 28 11:01:19 2017 +0800
 github的contributions统计就是按邮箱来统计的。
 
 ##### 配置一个全局的用户名和邮箱  [set-up-git](https://help.github.com/articles/set-up-git/)
-```
+```git
 $ git config --global user.name "github's Name"
 
 $ git config --global user.email "xxx@xxx.com"
@@ -42,7 +42,7 @@ $ git config --list
 ```
 
 ##### 如果你公司的项目是放在自建的Gitlab上面, 如果你不进行配置用户名和邮箱的话, 则会使用全局的, 这个时候是错误的, 正确的做法是针对公司的项目, 在项目根目录下进行单独配置
-```
+```git
 $ git config user.name "gitlab's Name"
 
 $ git config user.email "xxx@xx.com"

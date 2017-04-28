@@ -2,8 +2,14 @@
  * http://github.com/mojombo/jekyll
  * MIT License
  */
- 
+
 .highlight  { background: #ffffff; }
+.highlighter-rouge pre{
+    background-color: #0f140f!important;
+}
+.highlighter-rouge pre code{
+    background-color: #0f140f!important;
+}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */

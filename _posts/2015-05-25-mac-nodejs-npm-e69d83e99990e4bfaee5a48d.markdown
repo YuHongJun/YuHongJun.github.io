@@ -3,7 +3,6 @@ author: Demi_YuHongJun
 comments: true
 date: 2015-05-25 07:43:08+00:00
 layout: post
-slug: mac-nodejs-npm-%e6%9d%83%e9%99%90%e4%bf%ae%e5%a4%8d
 title: Mac nodejs npm 安装-global包 权限修复
 categories:
 - Tech

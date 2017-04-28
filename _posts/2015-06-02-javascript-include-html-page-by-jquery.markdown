@@ -1,9 +1,8 @@
 ---
 author: Demi_YuHongJun
 comments: true
-date: 2015-06-02 18:45:42+00:00
+date: 2015-06-02 19:45:42+00:00
 layout: post
-slug: javascript-include-html-page-by-jquery
 title: Javascript Include Html Page By Jquery
 categories:
 - Tech

@@ -1,7 +1,7 @@
 ---
 author: Demi_YuHongJun
 comments: true
-date: 2015-05-31 05:03:36+00:00
+date: 2015-05-31 08:03:36+00:00
 layout: post
 title: Github设置，强制使用"https://" 来代替 "git://"
 categories:
