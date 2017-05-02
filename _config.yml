@@ -31,6 +31,9 @@ paginate_path: "page:num"
  # This will require each of these plugins automatically.
 # Conversion
 markdown:    kramdown
+#kramdown:
+#  extensions: auto_ids
+
 #highlighter: pygments
 highlighter: rouge
 
