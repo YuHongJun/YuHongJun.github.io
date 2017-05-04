@@ -11,7 +11,9 @@ tags:
 - nodejs
 - npm
 ---
-
+* 目录
+{:toc}
+---
 最近换成在mac上面玩NodeJs和npm，结果遇到了权限问题。顺利安装玩node和npm之后用npm 的-global一直安装不上package。
  
 ```  

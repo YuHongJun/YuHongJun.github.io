@@ -9,6 +9,9 @@ categories:
 tags:
 - git
 ---
+* 目录
+{:toc}
+---
 写的代码提交到Github上时，contributions不记录当前提交记录。查了资料，发现原因。 
 
 官方上面有解释: [Why are my contributions not showing up on my profile?](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/)

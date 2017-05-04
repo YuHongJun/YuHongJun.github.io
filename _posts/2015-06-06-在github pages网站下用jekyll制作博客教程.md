@@ -10,6 +10,9 @@ tags:
 - jekyll
 - github
 ---
+* 目录
+{:toc}
+---
 ### 安装流程
 
 1. 要用github pages，首先要在github中建立一个基于你的用户名的repository: 比如说我，就要建立名为[yuhongjun.github.io](https://github.com/YuHongJun/YuHongJun.github.io)的repo。在以前的github版本中还需要在后台开启pages的功能，现在系统检测到这样的repo名称之后，会在setting中自动开启GitHub Pages的功能.
