@@ -5,7 +5,7 @@ date: 2015-05-25 07:43:08+00:00
 layout: post
 title: Mac nodejs npm 安装-global包 权限修复
 description:  Mac nodejs npm 安装-global包 权限修复
-categories:
+keywords: npm, node, javascript
 - Tech
 tags:
 - javascript
