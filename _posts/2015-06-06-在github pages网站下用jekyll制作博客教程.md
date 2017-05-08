@@ -4,6 +4,7 @@ comments: true
 date: 2016-06-07 18:42:32+00:00
 layout: post
 title: 在github pages网站下用jekyll制作博客教程
+description:  在github pages网站下用jekyll制作博客教程
 categories:
 - Tech
 tags:

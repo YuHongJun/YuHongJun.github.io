@@ -6,16 +6,77 @@
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     {% endif %}
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords}}">
+    {% endif %}
     <meta name="author" content="{{ site.author.name }}">
     <meta name="google-site-verification" content="Khh2sFw1NgyQxqGgvBndMmamdn0vNhMy-G1oRDubiRs" />
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
     <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+    {% if page.flowchart %}
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.0/raphael-min.js "></script>
+    <script src="http://flowchart.js.org/flowchart-latest.js "></script>
+    <script>
+			window.onload = function () {
+				var btn = document.getElementById("run"),
+				    cd = document.getElementById("code"),
+				    chart;
+				(btn.onclick = function () {
+					var code = cd.value;
+					if (chart) {
+						chart.clean();
+					}
+					chart = flowchart.parse(code);
+					chart.drawSVG('canvas', {
+						// 'x': 30,
+						// 'y': 50,
+						'line-width': 3,
+						'maxWidth': 3,//ensures the flowcharts fits within a certian width
+						'line-length': 50,
+						'text-margin': 10,
+						'font-size': 14,
+						'font': 'normal',
+						'font-family': 'Helvetica',
+						'font-weight': 'normal',
+						'font-color': 'black',
+						'line-color': 'black',
+						'element-color': 'black',
+						'fill': 'white',
+						'yes-text': 'yes',
+						'no-text': 'no',
+						'arrow-end': 'block',
+						'scale': 1,
+						'symbols': {
+							'start': {
+								'font-color': 'red',
+								'element-color': 'green',
+								'fill': 'yellow'
+							},
+							'end':{
+								'class': 'end-element'
+							}
+						},
+						'flowstate' : {
+							'past' : { 'fill' : '#CCCCCC', 'font-size' : 12},
+							'current' : {'fill' : 'yellow', 'font-color' : 'red', 'font-weight' : 'bold'},
+							'future' : { 'fill' : '#FFFF99'},
+							'request' : { 'fill' : 'blue'},
+							'invalid': {'fill' : '#444444'},
+							'approved' : { 'fill' : '#58C4A3', 'font-size' : 12, 'yes-text' : 'APPROVED', 'no-text' : 'n/a' },
+							'rejected' : { 'fill' : '#C45879', 'font-size' : 12, 'yes-text' : 'n/a', 'no-text' : 'REJECTED' }
+						}
+					});
+					$('[id^=sub1]').click(function(){
+						alert('info here');
+					});
+				})();
+			};
+    </script>
+    {% endif %}
     <!-- Le styles -->
     <link href="{{ site.BASE_PATH }}/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
