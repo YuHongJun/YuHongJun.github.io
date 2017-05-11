@@ -30,6 +30,7 @@ Tensorflow 是 google 第二代人工智能学习系统。支持 python 和 c++�
 
 ![t2](https://yuhongjun.github.io/assets/media/05-2017/t2.png)
 
+
 这是 Tensorboard 中保存的模型运行过程中保存下来的训练数据集和测试数据集的准确率变化曲线。其中紫色的曲线是训练数据集的accuracy 曲线， 蓝色的曲线是测试数据集的 accuracy 曲线。从图中我们能观察到的信息有 accuracy 的数值， 训练的次数（ 图中一共训练了5000 次， 鼠标停在第 3250 次）， 训练的时间以及训练消耗了多少时间。
 
 ![t3](https://yuhongjun.github.io/assets/media/05-2017/t3.png)
