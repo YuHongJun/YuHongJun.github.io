@@ -35,4 +35,6 @@ Tensorflow 是 google 第二代人工智能学习系统。支持 python 和 c++�
 
 ![t3](https://yuhongjun.github.io/assets/media/05-2017/t3.png)
 
-这是 Tensorboard 中保存的模型运行过程中保存下来的训练数据集和测试数据集的 loss 变化曲线。其中紫色的曲线是训练数据集的 loss曲线， 蓝色的曲线是测试数据集的 loss 曲线。从图中我们能观察到的信息有 loss 的数值， 训练的次数（ 图中一共训练了 5000 次， 鼠标停在第 1710 次）， 训练的时间以及训练消耗了多少时间。
+Tensorboard 还能查看网络的结构， 以及各个结构之间的连接关系。通过网络的结构我们可以仔细地追踪数据(在 Tensorflow 中数据的基本格式是 Tensor)的流动。
+
+![t4](https://yuhongjun.github.io/assets/media/05-2017/t4.png)
