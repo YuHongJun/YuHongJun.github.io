@@ -38,3 +38,7 @@ Tensorflow 是 google 第二代人工智能学习系统。支持 python 和 c++�
 Tensorboard 还能查看网络的结构， 以及各个结构之间的连接关系。通过网络的结构我们可以仔细地追踪数据(在 Tensorflow 中数据的基本格式是 Tensor)的流动。
 
 ![t4](https://yuhongjun.github.io/assets/media/05-2017/t4.png)
+
+![t6](https://yuhongjun.github.io/assets/media/05-2017/t6.png)
+
+![t7](https://yuhongjun.github.io/assets/media/05-2017/t7.png)
