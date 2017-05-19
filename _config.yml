@@ -79,7 +79,7 @@ kramdown:
 
 
 paginate: 10 # pagination based on number of posts
-paginate_path: "/page:num/"
+paginate_path: "yuhongjun.github.io/page:num"
 
 
 name:         Demi's Journey
