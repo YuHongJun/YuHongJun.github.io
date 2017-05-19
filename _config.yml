@@ -24,8 +24,6 @@ unpublished: false
 # Plugins
 whitelist: []
 gems:      [jekyll-paginate]
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
 
 # plugins: [jekyll-coffeescript, jekyll-watch, jekyll-assets]
  # This will require each of these plugins automatically.
@@ -80,7 +78,8 @@ kramdown:
   footnote_nr:    1
 
 
-
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
 
 
 name:         Demi's Journey
@@ -91,7 +90,7 @@ github_url:   https://yuhongjun.github.io
 author:
   name: Demi_YuHongJun
   avatar : false
-  introduction : engineer
+  introduction : developer
   email: demiyuhongjun@gmail.com
   github: YuHongJun
   twitter: demiyuhongjun
