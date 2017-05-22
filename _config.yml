@@ -84,7 +84,7 @@ paginate_path: "yuhongjun.github.io/page:num"
 
 name:         Demi's Journey
 description:  Demi的随笔和技术空间
-url:          https://github.com/YuHongJun
+url:          https://yuhongjun.github.io
 github_url:   https://yuhongjun.github.io
 
 author:
@@ -105,3 +105,13 @@ tags_path: tags.html
 resume_path: resume.html
 
 BASE_PATH:
+
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
