@@ -42,3 +42,6 @@ Tensorboard 还能查看网络的结构， 以及各个结构之间的连接关�
 ![t6](https://yuhongjun.github.io/assets/media/05-2017/t6.png)
 
 ![t7](https://yuhongjun.github.io/assets/media/05-2017/t7.png)
+
+
+![t8](https://yuhongjun.github.io/assets/media/05-2017/t8.png)
