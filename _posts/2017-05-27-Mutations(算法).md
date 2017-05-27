@@ -1,7 +1,7 @@
 ---
 author: Demi_YuHongJun
 comments: true
-date: 2017-5-27 09:42:32+00:00
+date: 2017-05-27 09:42:32+00:00
 layout: post
 title: Mutations(算法)
 description: Mutations(算法)
@@ -29,7 +29,7 @@ https://www.freecodecamp.cn/challenges/mutations
 
 当你完成不了挑战的时候，记得开大招'Read-Search-Ask'。
 
-解法一
+解法
 ```javascript
 function mutation(arr) {
  var main= arr.join(',').toLowerCase();
@@ -41,7 +41,5 @@ function mutation(arr) {
   }
   return true;
 }
-
 mutation(["hello", "hey"]);
-
 ```
