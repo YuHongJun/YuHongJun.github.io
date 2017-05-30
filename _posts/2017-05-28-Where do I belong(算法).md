@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-05-28 10:42:32+00:00
 layout: post
-title: Where do I belong(算法)
-description: Where do I belong(算法)
+title: Where do I belong (算法)
+description: Where do I belong (算法)
 keywords: FreeCodeCamp
 categories:
 - Tech
@@ -40,5 +40,6 @@ var result=arr.sort((a,b)=>{return a-b});
 }
 
 where([40, 60], 50);
+
 
 ```
