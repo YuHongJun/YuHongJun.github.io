@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-05-29 09:42:32+00:00
 layout: post
-title: Caesars Cipher(算法）
-description: Caesars Cipher(算法）
+title: Caesars Cipher(算法 初级）
+description: Caesars Cipher(算法 初级）
 keywords: FreeCodeCamp
 categories:
 - Tech

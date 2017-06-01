@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-05-31 09:42:32+00:00
 layout: post
-title: Diff Two Arrays(算法)
-description: Diff Two Arrays(算法)
+title: Diff Two Arrays(算法 中级)
+description: Diff Two Arrays(算法 中级)
 keywords: FreeCodeCamp
 categories:
 - Tech
