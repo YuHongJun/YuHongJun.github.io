@@ -28,6 +28,7 @@ https://www.freecodecamp.cn/challenges/falsy-bouncer
 这是一些对你有帮助的资源:
 
 [Boolean Objects](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+
 [Array.filter()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 解法

@@ -24,9 +24,13 @@ https://www.freecodecamp.cn/challenges/roman-numeral-converter
 如果你被难住了，记得使用 Read-Search-Ask尝试与他人结伴编程、编写你自己的代码。
 
 这是一些对你有帮助的资源:
+
 [Roman Numerals](http://www.mathsisfun.com/roman-numerals.html)
+
 [Array.splice()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
 [Array.indexOf()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+
 [Array.join()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
 思路

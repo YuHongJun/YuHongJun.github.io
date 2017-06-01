@@ -32,11 +32,9 @@ https://www.freecodecamp.cn/challenges/caesars-cipher
 
 这是一些对你有帮助的资源:
 
-
 [String.charCodeAt()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
 
 [String.fromCharCode()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
-
 
 在JavaScript中可以通过 `String.charCodeAt()` 方法返回0至65535这间的整数，代表索引处理字符的UTF-16编码单元。 可以通过这个方法查出每个字符对应的ASCII编码：
 ```

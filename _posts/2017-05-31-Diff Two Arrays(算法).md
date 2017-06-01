@@ -22,6 +22,7 @@ https://www.freecodecamp.cn/challenges/diff-two-arrays
 如果你被难住了，记得使用 Read-Search-Ask尝试与他人结伴编程、编写你自己的代码。
 
 这是一些对你有帮助的资源:
+
 [Comparison Operators](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
 [Array.slice()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)

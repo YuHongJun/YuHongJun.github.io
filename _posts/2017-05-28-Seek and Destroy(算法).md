@@ -25,6 +25,7 @@ https://www.freecodecamp.cn/challenges/seek-and-destroy
 这是一些对你有帮助的资源:
 
 [Arguments object](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/arguments)
+
 [Array.filter()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 解法
