@@ -3,7 +3,7 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-05-26 09:42:32+00:00
 layout: post
-title: Truncate a string(算法)
+title: Truncate a string(算法 初级)
 description: Truncate a string
 keywords: FreeCodeCamp
 categories:

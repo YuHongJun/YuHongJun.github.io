@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-05-25 09:42:32+00:00
 layout: post
-title: Repeat a string repeat a string(算法)
-description: Repeat a string repeat a string(算法)
+title: Repeat a string repeat a string(算法 初级)
+description: Repeat a string repeat a string(算法 初级)
 keywords: FreeCodeCamp
 categories:
 - Tech

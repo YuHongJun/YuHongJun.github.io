@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-05-27 10:42:32+00:00
 layout: post
-title: Falsy Bouncer(算法)
-description: Falsy Bouncer(算法)
+title: Falsy Bouncer(算法 初级)
+description: Falsy Bouncer(算法 初级)
 keywords: FreeCodeCamp
 categories:
 - Tech

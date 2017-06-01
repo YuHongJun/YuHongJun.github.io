@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-05-22 09:42:32+00:00
 layout: post
-title: Title Case a Sentence(算法)
-description: Title Case a Sentence(算法)
+title: Title Case a Sentence(算法 初级)
+description: Title Case a Sentence(算法 初级)
 keywords: FreeCodeCamp
 categories:
 - Tech

@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-05-21 09:42:32+00:00
 layout: post
-title: Find the Longest Word in a String(算法)
-description: Find the Longest Word in a String
+title: Find the Longest Word in a String(算法 初级)
+description: Find the Longest Word in a String(算法 初级)
 keywords: FreeCodeCamp
 categories:
 - Tech

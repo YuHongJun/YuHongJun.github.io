@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-05-28 09:42:32+00:00
 layout: post
-title: Seek and Destroy(算法)
-description: Seek and Destroy(算法)
+title: Seek and Destroy(算法 初级)
+description: Seek and Destroy(算法 初级)
 keywords: FreeCodeCamp
 categories:
 - Tech
