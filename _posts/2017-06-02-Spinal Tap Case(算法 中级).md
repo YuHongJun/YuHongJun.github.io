@@ -35,7 +35,7 @@ https://www.freecodecamp.cn/challenges/spinal-tap-case
 
 >spinalCase("Teletubbies say Eh-oh") 应该返回 "teletubbies-say-eh-oh"。
 
-##### 思路
+##### 思路一
 
 整体思路就是用正则表达式替换字符串指定字符。难点在于正则的写法。现逐步分析。
 
@@ -77,5 +77,42 @@ function spinalCase(str) {
 }
 
 spinalCase('This Is Spinal Tap');
+
+```
+##### 思路二：
+看测试用例，需要转换的字符串格式可以归为两类。第一类是利用空格、下划线等符号分解命名、还有第二类是在座诸位比较熟悉的驼峰命名法。以下称符号类型或驼峰类型。
+
+符号类型转换形式是简单的，驼峰类型转换形式也是简单的，但这二者并不相同，怎么区分这二者就是一个难点了。我们可以先定一个可以达到的小目标，比如先把这两种字符串类型分开。博主的方法是将字符串的按照符号类型分解，如果分解后的数组长度为1也就说明了当前字符串不管正不正经，他都是一个驼峰类型的字符串。
+
+ str.split(/\W|_/).length==1 
+
+既然区分开两种字符串类型了，那就把两种字符串类型都转换成题目要求的那样：我-是-吴-彦-祖 这种类型。
+
+驼峰类型转换很简单，只需要历遍字符串，使用正则表达式判断字符串中的某个字符是否为大写，如果是大写转换成小写再在前面加一根短短的东西。方法如下：
+
+
+解法二：
+```javascript
+function spinalCase(str) {
+  // "It's such a fine line between stupid, and clever."
+  // --David St. Hubbins
+     if(str.split(/\W|_/).length==1){
+           console.log(str);
+      for(var i=0;i<str.length;i++){
+    
+        if(/[A-Z]/.test(str[i])){
+          if(i===0){
+               str=str.replace(str[i],str[i].toLowerCase());
+
+          }else{
+               str=str.replace(str[i],"-"+str[i].toLowerCase());
+          }
+        }
+      }
+    }else str=str.toLowerCase().split(/\W|_/).join("-");
+    return str;
+}
+
+spinalCase('ThisIsSpinalTap');
 
 ```
