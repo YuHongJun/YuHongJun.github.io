@@ -57,7 +57,8 @@ function unique(array){
 ```javascript
 return temp.filter(function(item,index,array){
     return array.indexOf(item) == index;
-  });
+  });//自身查重只需要让它本身第一次出现在原数组的位置为索引值index，就可以保留且只保留一个。
+
 ```
 解法：
 ```javascript
@@ -78,7 +79,7 @@ function sym(args) {
   return temp.filter(function(item,index,array){
     return array.indexOf(item)== index ;
   });
-
+  //自身查重只需要让它本身第一次出现在原数组的位置为索引值index，就可以保留且只保留一个。
   //或者调用外部函数去重；function unique(array)见“思路”部分
   //return unique(temp);
 }
