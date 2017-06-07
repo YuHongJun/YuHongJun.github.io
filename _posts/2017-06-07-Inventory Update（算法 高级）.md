@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-06-07 04:42:32+00:00
 layout: post
-title: Inventory Update（算法 中级）
-description: Inventory Update（算法 中级）
+title: Inventory Update（算法 高级）
+description: Inventory Update（算法 高级）
 keywords: FreeCodeCamp
 categories:
 - Tech
@@ -113,8 +113,6 @@ var newInv = [
 updateInventory(curInv, newInv);
 
 ```
-
-
 解法二：
 
 ```javascript
@@ -160,8 +158,6 @@ var newInv = [
 updateInventory(curInv, newInv);
 
 ```
-
-
 结果：
 
 updateInventory() 应该返回一个数组.
