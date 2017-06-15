@@ -119,7 +119,8 @@ if(intervalDays < 32 && m(0) === m(1)){
 
 “如果日期区间内开始日期年份是当前年份，且结束日期与开始不超过一年，则开始日期的年份也不用写”。
 ```
-if(temp(0)[0] == now.getFullYear() && intervalDays < 365){
+ //题目答案以2016年为当前年份。。。所以在此基础上now.getFullYear()-1=2017-1
+  if(temp(0)[0] == now.getFullYear()-1 && intervalDays < 365){
     str0 = str0.slice(0,output(0).indexOf(","));
     str1 = str1.slice(0,output(1).indexOf(","));
   }
