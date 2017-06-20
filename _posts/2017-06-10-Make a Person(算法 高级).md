@@ -17,6 +17,7 @@ tags:
 
 https://www.freecodecamp.cn/challenges/make-a-person
 
+
 用下面给定的方法构造一个对象.
 
 方法有 getFirstName(), getLastName(), getFullName(), setFirstName(first), setLastName(last), and setFullName(firstAndLast).
