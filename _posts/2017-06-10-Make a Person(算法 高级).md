@@ -33,3 +33,38 @@ https://www.freecodecamp.cn/challenges/make-a-person
 [Closures](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures)
 
 [Details of the Object Model](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
+
+
+```javascript
+var Person = function(firstAndLast) {
+  var firstName,lastName;
+  this.getFirstName=function(){
+    return firstName;
+  };
+  this.getLastName=function(){
+    return lastName;
+  };
+  this.getFullName=function(){
+    return firstName+" "+lastName;
+  };
+  
+  this.setFirstName=function(first){
+   firstName=first;
+  };
+  this.setLastName=function(last){
+    lastName=last;
+  };
+  this.setFullName=function(firstAndLast){
+    firstAndLast=firstAndLast.split(" ");
+    firstName=firstAndLast[0];
+    lastName=firstAndLast[1];
+  };
+  
+  
+   this.setFullName(firstAndLast);
+};
+
+var bob = new Person('Bob Ross');
+bob.getFullName();
+
+```
