@@ -35,9 +35,29 @@ Note:
 
 由题意可知，我们可以将整个数组升序排序，每两个数为一组，取其最小的那个值相加，最终得到答案。
 
-过程详见代码：
+javascript:
+```
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var arrayPairSum = function(nums) {
+    var len = nums.length,
+    total = nums.sort((x,y)=>x-y),
+    sum=0;
+    
+    do {
+        sum +=total[len-2];
+    } while (len-=2);
+ 
+    return sum;
+    
+};
+```
 
-python
+
+
+python:
 ```
 class Solution(object):
 
