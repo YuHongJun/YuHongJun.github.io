@@ -3,13 +3,13 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-06-13 04:42:32+00:00
 layout: post
-title: [leetCode] 561. Array Partition I[Easy]
-description: [leetCode] 561. Array Partition I[Easy]
-keywords: leetCode
+title: (LeetCode 561-Easy)Array Partition I
+description: (LeetCode 561-Easy)Array Partition I
+keywords: LeetCode
 categories:
 - Tech
 tags:
-- leetCode
+- LeetCode
 ---
 * 目录
 {:toc}
