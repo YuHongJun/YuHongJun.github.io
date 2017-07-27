@@ -72,6 +72,13 @@
 			</a>
 		</li>
 		{% endif %}
+		{% if site.author.facebook %}
+		<li>
+			<a class="btn btn-default btn-sm" href="https://www.facebook.com/{{ site.author.facebook }}">
+				<i class="fa fa-facebook fa-lg"></i>
+			</a>
+		</li>
+		{% endif %}
 		{% if site.author.linkedin %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
@@ -79,6 +86,7 @@
 			</a>
 		</li>
 		{% endif %}
+
 		<!--<li>-->
 			<!--<a class="btn btn-default btn-sm" href="{{ site.url }}/{{ site.rss_path }}">-->
 				<!--<i class="fa fa-rss fa-lg"></i>-->
