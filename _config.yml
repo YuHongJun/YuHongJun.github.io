@@ -23,7 +23,7 @@ future:      false
 unpublished: false
 # Plugins
 whitelist: []
-gems:      [jekyll-paginate]
+plugins:      [jekyll-paginate, jekyll-sitemap]
 
 # plugins: [jekyll-coffeescript, jekyll-watch, jekyll-assets]
  # This will require each of these plugins automatically.

@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-06-14 05:42:32+00:00
 layout: post
-title: 2017-06-14-(LeetCode 167-Easy)Two Sum II - Input array is sorted
-description: 2017-06-14-(LeetCode 167-Easy)Two Sum II - Input array is sorted
+title: (LeetCode 167-Easy)Two Sum II - Input array is sorted
+description: (LeetCode 167-Easy)Two Sum II - Input array is sorted
 keywords: LeetCode
 categories:
 - Tech

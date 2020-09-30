@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2018-03-15 05:42:32+00:00
 layout: post
-title: 2018-03-15-Git:合并多个 Commit
-description: 2018-03-15-Git:合并多个 Commit
+title: Git Rebase
+description: Git:合并多个 Commit
 keywords: Deploy
 categories:
 - Tech
@@ -14,8 +14,6 @@ tags:
 * 目录
 {:toc}
 ---
-
-2018-03-15-Git:合并多个 Commit
 
 ```
 git rebase -i branch-name

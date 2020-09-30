@@ -3,6 +3,10 @@
 body{
 	color: #2c3e50;
 }
+.mainTitle {
+	text-align: center;
+}
+
 .highlighter-rouge pre{
 	 background-color: #0f140f!important;
 }

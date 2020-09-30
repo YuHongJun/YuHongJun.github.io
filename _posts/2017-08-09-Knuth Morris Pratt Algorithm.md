@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-08-09 04:42:32+00:00
 layout: post
-title: 2017-08-09-字符串匹配的KMP算法
-description: 2017-08-09-字符串匹配的KMP算法
+title: Knuth Morris Pratt Algorithm
+description: 字符串匹配的KMP算法
 keywords: Algorithm
 categories:
 - Tech

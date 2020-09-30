@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2017-09-10 05:42:32+00:00
 layout: post
-title: 2017-09-10-deploying-multiple-environments-on-heroku
-description: 2017-09-10-deploying-multiple-environments-on-heroku
+title: Deploying Multiple Environments on Heroku
+description: deploying-multiple-environments-on-heroku
 keywords: Deploy
 categories:
 - Tech
@@ -14,8 +14,6 @@ tags:
 * 目录
 {:toc}
 ---
-
-2017-09-10-deploying-multiple-environments-on-heroku
 
 https://devcenter.heroku.com/articles/git#deploying-code
 

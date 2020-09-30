@@ -3,8 +3,8 @@ author: Demi_YuHongJun
 comments: true
 date: 2018-03-14 05:42:32+00:00
 layout: post
-title: 2018-03-14-Custom Domain Names for Apps
-description: 2018-03-14-Custom Domain Names for Apps
+title: Custom Domain Names for Apps
+description: Custom Domain Names for Apps
 keywords: Deploy
 categories:
 - Tech
@@ -14,8 +14,6 @@ tags:
 * 目录
 {:toc}
 ---
-
-2018-03-14-Custom Domain Names for Apps
 
 https://devcenter.heroku.com/articles/custom-domains
 
