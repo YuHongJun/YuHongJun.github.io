@@ -114,5 +114,5 @@ sitemap:
         - "/feed.xml"
     include_posts:
         - "/index.html"
-    change_frequency_name: "change_frequency"
+    change_frequency_name: "daily"
     priority_name: "priority"
