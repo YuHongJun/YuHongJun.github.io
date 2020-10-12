@@ -15,11 +15,11 @@ tags:
 {:toc}
 ---
 
-https://mars.jetdevs.com/
+[testmars1](https://mars.jetdevs.com/)
 
 Google Hacking的含义原指利用Google Google搜索引擎搜索信息来进行入侵的技术和行为；
 
-https://venus.jetdevs.com/
+[testvenus2](https://venus.jetdevs.com/)
 ```
 现指利用各种搜索引擎搜索信息来进行入侵的技术和行为，但我们也可以利用这个在互联网上更加便捷精准的搜索我们想要的资源。
 
