@@ -3,7 +3,7 @@ author: Demi_YuHongJun
 comments: true
 date: 2020-09-30 05:42:32+00:00
 layout: post
-title: Github
+title: ping github.com timeout
 description: 解决ping github.com超时
 keywords: Deploy
 categories:
@@ -38,4 +38,4 @@ sudo vim /private/etc/hosts
 ```
 再次ping github.com发现ping通了
 
-![示例](https://yuhongjun.github.io/assets/media/2020-09-30.png)
+![示例](https://yuhongjun.github.io/assets/media/09-2020/2020-09-30.png)
