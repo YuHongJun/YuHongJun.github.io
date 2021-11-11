@@ -32,18 +32,18 @@ fmt.Sprintf(格式化样式, 参数列表…)
 var progress = 2
 var target = 8
 ```
-// 两参数格式化
+##### 两参数格式化
 ```
 title := fmt.Sprintf("已采集%d个药草, 还需要%d个完成任务", progress, target)
 fmt.Println(title)
 pi := 3.14159
 ```
-// 按数值本身的格式输出
+##### 按数值本身的格式输出
 ```
 variant := fmt.Sprintf("%v %v %v", "月球基地", pi, true)
 fmt.Println(variant)
 ```
-// 匿名结构体声明, 并赋予初值
+##### 匿名结构体声明, 并赋予初值
 ```
 profile := &struct {
 Name string
@@ -58,7 +58,7 @@ fmt.Printf("使用'%%T' %T\n", profile)
 var progress = 2
 var target = 8
 ```
-// 两参数格式化
+##### 两参数格式化
 ```
 title := fmt.Sprintf("已采集%d个药草, 还需要%d个完成任务", progress, target)
 
@@ -66,7 +66,7 @@ fmt.Println(title)
 
 pi := 3.14159
 ```
-// 按数值本身的格式输出
+##### 按数值本身的格式输出
 ```
 variant := fmt.Sprintf("%v %v %v", "月球基地", pi, true)
 
@@ -96,7 +96,7 @@ fmt.Printf("使用'%%T' %T\n", profile)
 使用'%T' *struct { Name string; HP int }C语言中, 使用%d代表整型参数
 ```
 
-下表中标出了常用的一些格式化样式中的动词及功能。
+##### 下表中标出了常用的一些格式化样式中的动词及功能。
 ```
 表：字符串格式化时常用动词及功能
 动  词	功  能
