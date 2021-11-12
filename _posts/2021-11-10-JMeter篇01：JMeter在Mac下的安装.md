@@ -52,8 +52,7 @@ JDK安装成功后，需要配置环境变量，在Windows下需要配置的环�
 JAVA_HOME：指向JDK的安装目录；
 path：指定命令搜索路径，设置好path变量后，就可以在任何目录下执行javac/java等工具了；
 classpath：指定类搜索路径；
-打开终端，输入vim .bash_profile，会进入vim编辑器，如下图：
-
+打开终端，输入vim .bash_profile，会进入vim编辑器
 
 在.bash_profile文件中进行环境变量的配置，输入以下代码（#后面的是注释，为了方便我解释，不需要输入）。
 ```
@@ -71,7 +70,7 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 
 ##### 安装JMeter
-进入JMeter的下载地址页面，如下图，有两个版本可供下载：
+进入JMeter的下载地址页面, 有两个版本可供下载：
 
 Binaries：二进制版，即已经编译好、可直接执行；
 Source：源代码版，需要自己编译；
@@ -81,7 +80,7 @@ Source：源代码版，需要自己编译；
 ##### 启动JMeter
 解压完成后，得到下面的目录文件：
 
-进入到bin目录下，通过sh jmeter命令来启动JMeter，如下图
+进入到bin目录下，通过sh jmeter命令来启动JMeter
 
 
 Don't use GUI mode for load testing：这是一段提示信息，不要使用GUI模式进行负载测试，要使用NON GUI模式
@@ -103,7 +102,7 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JMETER_HOME/l
 退出vim编辑器，输入source ~/.bash_profile。接下来重点来了，直接在终端（任意目录）输入jmeter，即可启动JMeter。
 
 ##### 更改JMeter语言为中文
-启动JMeter的GUI模式后，默认语言是英文，它也自带了几种语言，我们可以把JMeter切换成中文，从菜单栏中进行切换，方法如下图。Chinese（Simplified）的意思是中文（简体），Chinese（Traditional）的意思是中文（繁体）。
+启动JMeter的GUI模式后，默认语言是英文，它也自带了几种语言，我们可以把JMeter切换成中文，从菜单栏中进行切换。Chinese（Simplified）的意思是中文（简体），Chinese（Traditional）的意思是中文（繁体）。
 
 设置完成后，关闭JMeter，重新启动GUI模式，会发现，语言又变成英文了。所以如果要更改默认语言为中文，需要修改配置文件，即MyProjects/apache-jmeter-5.4.1/bin/jmeter.properties这个文件。
 

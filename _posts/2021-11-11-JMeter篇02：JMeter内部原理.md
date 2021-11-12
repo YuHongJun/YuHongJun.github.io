@@ -17,6 +17,9 @@ tags:
 ---
 
 ## JMeter篇02：JMeter内部原理
+[上一篇文章](https://yuhongjun.github.io/tech/2021/11/10/JMeter%E7%AF%8701-JMeter%E5%9C%A8Mac%E4%B8%8B%E7%9A%84%E5%AE%89%E8%A3%85.html)，我们介绍了JMeter的安装。
+
+在使用JMeter这款工具之前，首先要了解JMeter是如何工作的，也就是JMeter的内部原理，理解了原理，我们才能更好地使用工具。
 ### JMeter的体系结构
 JMeter的结构图如下所示。这是一个三维空间，三维坐标轴分别是X、Y、Z。这张图来源于网络，在很多讲JMeter原理的文章中都可以看到，但是理解起来比较抽象，很难简单明了地看懂，我在此尝试描述一下。
 
