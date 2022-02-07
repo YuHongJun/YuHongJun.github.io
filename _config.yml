@@ -46,7 +46,7 @@ baseurl: "" # does not include hostname
 show_dir_listing: false
 # Outputting
 permalink:     date
-paginate_path: /page:num
+
 timezone:      null
 
 quiet:    false
@@ -78,9 +78,9 @@ kramdown:
   footnote_nr:    1
 
 
-paginate: 10 # pagination based on number of posts
+paginate: 20 # pagination based on number of posts
 paginate_path: "yuhongjun.github.io/page:num"
-
+#paginate_path: "/page:num"
 
 name:         Demi's Journey
 description:  Demi的随笔和技术空间
