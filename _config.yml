@@ -24,7 +24,7 @@ unpublished: false
 # Plugins
 whitelist: []
 plugins:      [jekyll-paginate, jekyll-sitemap]
-
+gems: [jekyll-paginate, jekyll-sitemap]
 # plugins: [jekyll-coffeescript, jekyll-watch, jekyll-assets]
  # This will require each of these plugins automatically.
 # Conversion
